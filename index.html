@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    
     <div id="header">
         <div class="container">
             <nav>
@@ -26,5 +27,53 @@
             </div>
         </div>
     </div>
+    
+     <!--About-->
+
+    <script src="script.js" type="text/JavaScript"></script>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/about.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a passionate Developer and I am currently studying my college 2nd year.
+
+                        I work closely with my team mates, helping them in solving problems and achieving accelerating results through my skills. 
+                        
+                        I strongly believe passion brings possibilities to life.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming Skills</span><br>C, C++, JAVA, Python(Basics)</li>
+                            <li><span>Web Development</span><br>HTML, CSS, JavaScript</li>
+                            <li><span>Tools</span><br>Visual Studio Code, Git, GitHub</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            
+                            <li><span>2022 sept-nov</span><br>Internship at verzeo(Web Development)</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021-2025</span><br>B.tech Computer Science at Sri Eshwar College Of Engineering</li>
+                            <li><span>2021</span><br>HSE at Adharsh Vidyalaya Matrix Hr. Sec. School</li>
+                            <li><span>2019</span><br>SSLC at Kannamal National Matrix.Hr. Sec. School</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
   </body>
 </html>
